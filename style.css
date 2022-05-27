@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%; 
+    border-radius: 51px;
+    font-size: 31px;
+    margin: 0;
+
+}
+
+.note{
+    font-size: 17px;
+    color: black;
+}
+
+canvas{
+    background-color: black;
+    border: 2.1px;
+    animation-name: example;
+    animation-duration: 2100ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38.534654445px blanchedalmond;}
+    
+    to{box-shadow: 1px 1px 40.87415px sandybrown;};
+}
